@@ -1,0 +1,13 @@
+{
+  "name": "aurae-personas",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Creator brand identity as a Markdown skill file. Drop one into Claude Code and every generation comes out in that creator's aesthetic.",
+  "scripts": {
+    "generate": "node scripts/generate-persona.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "gray-matter": "^4.0.3"
+  }
+}
